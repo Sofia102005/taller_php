@@ -55,7 +55,7 @@ $frase->get_frase();
     <li><a href="Acro.html">Regresar</a></li>
     <li><a href="../punto2/FioFac.html">Punto 2 </a></li>
     <li><a href="../Estadistica.html">Punto 3</a></li> <!--Juli-->
-    <li><a href="Conjunto.html">Punto 4</a></li> <!--Juli-->
+    <li><a href="../Conjunto.html">Punto 4</a></li> <!--Juli-->
     <li><a href="../punto5/Bina.html">Punto 5</a></li>
     <li><a href="../Arbol.html">Punto 6</a></li> <!--Juli-->
   </ul>
