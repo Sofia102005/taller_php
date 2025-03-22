@@ -1,25 +1,30 @@
 <?php
-interface Model {
+interface Model
+{
     function get($prop);
     function set($prop, $value);
 }
 
-class Calculadora implements Model {
+class Calculadora implements Model
+{
     private $numero = null;
 
-    function set($prop, $value) {
+    function set($prop, $value)
+    {
         if ($prop == 'numero') {
             $this->numero = $value;
         }
     }
 
-    function get($prop) {
+    function get($prop)
+    {
         if ($prop == 'numero') {
             return $this->numero;
         }
     }
 
-    function fibonacci() {
+    function fibonacci()
+    {
         $a = 0;
         $b = 1;
         $secuencia = "0 + 1";
@@ -34,7 +39,8 @@ class Calculadora implements Model {
         return "Secuencia: " . $secuencia . " = " . $resultado;
     }
 
-    function factorial() {
+    function factorial()
+    {
         $resultado = 1;
         $secuencia = "1";
         for ($i = 2; $i <= $this->numero; $i++) {
