@@ -41,11 +41,14 @@ $frase->get_frase();
 
 <body>
 
-  <h2>Frase es : <?php echo $fraseRecibida; ?></h2>
+  <h2>Frase es : <?php echo $fraseRecibida; ?> </h2>
   <h2>Acronimo:</h2>
   <h1>
-    <?php foreach ($frase->letras as $palabra) {
-      echo $palabra[0];
+    <?php 
+    foreach ($frase->letras as $letras) {
+      if (!empty($letras)) {
+        echo $letras[0];
+      }
     }
     ?>
   </h1>
